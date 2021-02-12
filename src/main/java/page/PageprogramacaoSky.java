@@ -61,7 +61,7 @@ public class PageprogramacaoSky {
 
 	public static void tituloPrograma() {
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(6000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
