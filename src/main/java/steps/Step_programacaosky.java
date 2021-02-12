@@ -37,7 +37,13 @@ public class Step_programacaosky {
 	@Então("^validar titulo da programação$")
 	public void validar_titulo_da_programação() throws Throwable {
 	//	PageprogramacaoSky.validarTitle();
+		PageprogramacaoSky.tituloPrograma();
+	}
+	
+	@Então("^validar duração da programação$")
+	public void validar_duracao_da_programação() throws Throwable {
 
+		PageprogramacaoSky.validarduracao();
 	}
 	
 	
@@ -48,5 +54,8 @@ public class Step_programacaosky {
 		PageprogramacaoSky.validarTitle(arg);
 
 	}
+	
+	
+
 
 }

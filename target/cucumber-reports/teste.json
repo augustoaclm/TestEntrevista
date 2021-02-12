@@ -16,7 +16,7 @@
         "before": [
           {
             "result": {
-              "duration": 2355949300,
+              "duration": 2182325300,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 826778000,
+              "duration": 796111300,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9934635100,
+              "duration": 4012247800,
               "status": "passed"
             },
             "line": 8,
@@ -58,14 +58,32 @@
               ],
               "location": "Step_programacaosky.acessar_site(String)"
             },
-            "keyword": "Quando "
+            "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 26014084400,
+              "duration": 13697800,
               "status": "passed"
             },
             "line": 9,
+            "name": "Titulo for igual a \"SKY: A gente se diverte junto! | SKY - Sky\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SKY: A gente se diverte junto! | SKY - Sky",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_programacaosky.titulo_igual(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8435546700,
+              "status": "passed"
+            },
+            "line": 10,
             "name": "acessar menu \"Programação\"",
             "match": {
               "arguments": [
@@ -76,29 +94,59 @@
               ],
               "location": "Step_programacaosky.acessar_menu(String)"
             },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 51382900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Titulo for igual a \"Na TV: Grade de Programação | SKY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Na TV: Grade de Programação | SKY",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_programacaosky.titulo_igual(String)"
+            },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 56000,
+              "duration": 5540913500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "clicar na programação",
             "match": {
               "location": "Step_programacaosky.clicar_na_programação()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5041998200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validar titulo da programação",
+            "match": {
+              "location": "Step_programacaosky.validar_titulo_da_programação()"
             },
             "keyword": "Então "
           },
           {
             "result": {
-              "duration": 34100,
+              "duration": 27478000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "validar titulo da programação",
+            "line": 14,
+            "name": "validar duração da programação",
             "match": {
-              "location": "Step_programacaosky.validar_titulo_da_programação()"
+              "location": "Step_programacaosky.validar_duracao_da_programação()"
             },
             "keyword": "E "
           }
