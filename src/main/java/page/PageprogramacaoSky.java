@@ -36,7 +36,7 @@ public class PageprogramacaoSky {
 
 	public static void programacao() {
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
