@@ -1,13 +1,9 @@
 package hooks;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-
-
 
 public class Basedriver {
 
@@ -18,21 +14,15 @@ public class Basedriver {
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
 	}
-	
-	public static  WebDriver getDriver() {
+
+	public static WebDriver getDriver() {
 		return driver;
 	}
-	
-
 
 	@After
 	public void afterCenario() {
 		driver.quit();
 	}
-	
-
-	
 
 }

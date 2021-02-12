@@ -1,7 +1,5 @@
 #language: pt
 #encoding: iso-8859-1
-
-
 Funcionalidade: Primeira Programação do Site SKY
 
   Cenário: Validação do titulo de programação
@@ -10,7 +8,5 @@ Funcionalidade: Primeira Programação do Site SKY
     Quando acessar menu "Programação"
     E Titulo for igual a "Na TV: Grade de Programação | SKY"
     E clicar na programação
-    Então validar titulo da programação 
+    Então validar titulo da programação
     E validar duração da programação
-   
-	

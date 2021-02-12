@@ -10,13 +10,13 @@
         "value": "#encoding: iso-8859-1"
       }
     ],
-    "line": 5,
+    "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 2182325300,
+              "duration": 3470648900,
               "status": "passed"
             },
             "match": {
@@ -24,14 +24,14 @@
             }
           }
         ],
-        "line": 7,
+        "line": 5,
         "name": "Validação do titulo de programação",
         "description": "",
         "id": "primeira-programação-do-site-sky;validação-do-titulo-de-programação",
         "after": [
           {
             "result": {
-              "duration": 796111300,
+              "duration": 838223000,
               "status": "passed"
             },
             "match": {
@@ -44,10 +44,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4012247800,
+              "duration": 5152910300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 6,
             "name": "acessar site \"https://www.sky.com.br\"",
             "match": {
               "arguments": [
@@ -62,10 +62,10 @@
           },
           {
             "result": {
-              "duration": 13697800,
+              "duration": 31723000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 7,
             "name": "Titulo for igual a \"SKY: A gente se diverte junto! | SKY - Sky\"",
             "match": {
               "arguments": [
@@ -80,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 8435546700,
+              "duration": 4473497300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 8,
             "name": "acessar menu \"Programação\"",
             "match": {
               "arguments": [
@@ -98,10 +98,10 @@
           },
           {
             "result": {
-              "duration": 51382900,
+              "duration": 8086300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 9,
             "name": "Titulo for igual a \"Na TV: Grade de Programação | SKY\"",
             "match": {
               "arguments": [
@@ -116,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 5540913500,
+              "duration": 5385217600,
               "status": "passed"
             },
-            "line": 12,
+            "line": 10,
             "name": "clicar na programação",
             "match": {
               "location": "Step_programacaosky.clicar_na_programação()"
@@ -128,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 5041998200,
+              "duration": 5056320100,
               "status": "passed"
             },
-            "line": 13,
+            "line": 11,
             "name": "validar titulo da programação",
             "match": {
               "location": "Step_programacaosky.validar_titulo_da_programação()"
@@ -140,10 +140,10 @@
           },
           {
             "result": {
-              "duration": 27478000,
+              "duration": 50559000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 12,
             "name": "validar duração da programação",
             "match": {
               "location": "Step_programacaosky.validar_duracao_da_programação()"
