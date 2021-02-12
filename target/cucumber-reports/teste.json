@@ -1,0 +1,114 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: iso-8859-1"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2355949300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Basedriver.beforeCenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validação do titulo de programação",
+        "description": "",
+        "id": "primeira-programação-do-site-sky;validação-do-titulo-de-programação",
+        "after": [
+          {
+            "result": {
+              "duration": 826778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Basedriver.afterCenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 9934635100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "acessar site \"https://www.sky.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.sky.com.br",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_programacaosky.acessar_site(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 26014084400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acessar menu \"Programação\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Programação",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_programacaosky.acessar_menu(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar na programação",
+            "match": {
+              "location": "Step_programacaosky.clicar_na_programação()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validar titulo da programação",
+            "match": {
+              "location": "Step_programacaosky.validar_titulo_da_programação()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Primeira Programação do Site SKY",
+    "description": "",
+    "id": "primeira-programação-do-site-sky",
+    "keyword": "Funcionalidade",
+    "uri": "Programacao.feature"
+  }
+]
